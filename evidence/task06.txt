@@ -1,0 +1,18 @@
+============================================================
+Task 06 - GET /posts/1, /posts/2, /posts/3
+
+GET /posts/1
+  Status code : 200
+  Post id     : 1
+  Title       : sunt aut facere repellat provident occaecati excepturi optio
+
+GET /posts/2
+  Status code : 200
+  Post id     : 2
+  Title       : qui est esse
+
+GET /posts/3
+  Status code : 200
+  Post id     : 3
+  Title       : ea molestias quasi exercitationem repellat qui ipsa sit aut
+

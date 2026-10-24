@@ -1,0 +1,13 @@
+============================================================
+Task 07 - POST /posts
+Request body: {"title": "My API Lab", "body": "Testing POST request", "userId": 1}
+HTTP method : POST
+Endpoint    : https://jsonplaceholder.typicode.com/posts
+Status code : 201
+Response    : {
+  "title": "My API Lab",
+  "body": "Testing POST request",
+  "userId": 1,
+  "id": 101
+}
+

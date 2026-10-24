@@ -1,0 +1,8 @@
+============================================================
+Task 19 - handle a 404 for a resource that does not exist
+GET https://jsonplaceholder.typicode.com/posts/99999
+Request failed.
+Status Code: 404
+Resource not found.
+The program handled the missing resource without an unhandled exception.
+

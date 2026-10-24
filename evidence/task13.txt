@@ -1,0 +1,23 @@
+Task 13 - single post
+Status: 200
+Post ID: 1
+Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+Body: quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+
+Task 14 - retrieve multiple posts with a loop
+Post 1: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+Post 2: qui est esse
+Post 3: ea molestias quasi exercitationem repellat qui ipsa sit aut
+
+Task 15 - retrieve and process a collection
+Status: 200
+Number of posts returned: 100
+First five post titles:
+  - sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  - qui est esse
+  - ea molestias quasi exercitationem repellat qui ipsa sit aut
+  - eum et est occaecati
+  - nesciunt quas odio

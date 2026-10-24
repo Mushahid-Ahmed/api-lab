@@ -1,0 +1,9 @@
+============================================================
+Task 10 - Observe status codes 200, 201 and 404
+200 -> GET /posts/1 returned 200: the post exists
+201 -> POST /posts returned 201: a post was created
+404 -> GET /posts/99999 returned 404: no resource with that id
+
+200 and 201 are 2xx success codes. 404 is a 4xx client error:
+the server responded correctly, but the requested resource does not exist.
+

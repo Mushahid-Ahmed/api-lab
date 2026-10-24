@@ -1,0 +1,8 @@
+Task 17 - build an Authorization header
+API key loaded from environment: yes
+Request headers (sanitized): {'Authorization': 'Bearer ***', 'Accept': 'application/json'}
+
+Task 18 - send the header to a protected-style endpoint
+Status: 200
+Authenticated: yes, the server accepted the bearer token.
+The API key is loaded from .env and is never hardcoded or printed.

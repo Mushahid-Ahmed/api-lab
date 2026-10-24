@@ -1,0 +1,13 @@
+============================================================
+Task 08 - PUT /posts/1
+Request body: {"id": 1, "title": "My API Lab (updated)", "body": "Testing PUT request", "userId": 1}
+HTTP method : PUT
+Endpoint    : https://jsonplaceholder.typicode.com/posts/1
+Status code : 200
+Response    : {
+  "id": 1,
+  "title": "My API Lab (updated)",
+  "body": "Testing PUT request",
+  "userId": 1
+}
+

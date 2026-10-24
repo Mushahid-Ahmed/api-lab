@@ -1,0 +1,7 @@
+============================================================
+Task 22 - distinguish the four outcomes
+Success            : status 200, post title received
+API error          : status 404, Resource not found.
+Timeout            : requests.exceptions.Timeout after 2 seconds
+Network failure    : requests.exceptions.ConnectionError (host unreachable)
+

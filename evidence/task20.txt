@@ -1,0 +1,10 @@
+============================================================
+Task 20 - distinguish HTTP status categories
+200  success          Success. The request completed and the response contains the resource.
+400  invalid request  Bad request. The server could not understand the request.
+401  unauthorized     Unauthorized. Valid credentials are required.
+403  forbidden        Forbidden. The credentials are valid but access is not allowed.
+404  missing resource Resource not found.
+429  rate limited     Too many requests. The client is being rate limited.
+500  server failure   Server error. The server failed to complete the request.
+

@@ -1,0 +1,6 @@
+============================================================
+Task 21 - request timeout
+Requesting https://httpbin.org/delay/10 with timeout=2 ...
+Timed out after 2 seconds. requests raised requests.exceptions.Timeout.
+A timeout prevents the program from waiting indefinitely for a response.
+

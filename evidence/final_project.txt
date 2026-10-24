@@ -1,0 +1,33 @@
+== 1. Connection and configuration ==
+Base URL: https://jsonplaceholder.typicode.com
+Timeout : 10.0s (configurable via .env)
+API key : configured (loaded from environment)
+Retries on 429: 2
+
+== 2. Retrieve a collection ==
+Posts returned: 100
+First five titles:
+  - sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  - qui est esse
+  - ea molestias quasi exercitationem repellat qui ipsa sit aut
+  - eum et est occaecati
+  - nesciunt quas odio
+
+== 3. Retrieve one resource ==
+Post ID : 1
+Title   : sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+Body    : quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+User ID : 1
+
+== 4. Create a resource (POST) ==
+Created post id: 101 (HTTP 201)
+Title: My API Lab
+
+== 5. Error handling ==
+Handled NotFoundError: HTTP 404
+Message: Resource not found: https://jsonplaceholder.typicode.com/posts/99999
+
+Demo finished. All failures were handled as typed errors.

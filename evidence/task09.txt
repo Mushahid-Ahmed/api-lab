@@ -1,0 +1,8 @@
+============================================================
+Task 09 - DELETE /posts/1
+HTTP method : DELETE
+Endpoint    : https://jsonplaceholder.typicode.com/posts/1
+Status code : 200
+Response    : {}
+DELETE asks the server to remove the addressed resource.
+
